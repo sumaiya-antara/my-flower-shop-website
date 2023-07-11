@@ -207,6 +207,7 @@ h1{
     flex-direction: column;
     align-items: center;
     margin-top: 178px;
+    margin-bottom: 128px;
 }
 .featured-title{
     color: #272727;
@@ -227,6 +228,9 @@ h1{
 .featured-images{
     margin-left: 240px;
     margin-right: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 #featured-flower-1{
 
@@ -244,7 +248,68 @@ h1{
     background: rgba(71, 125, 17, 0.15);
 
 }
-.featured-images > .featured-flower2{
-   
+#cap1{
+    padding-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+#cap2{
+    padding-top: 32px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+#cap3{
+    padding-top: 32px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
 
+/*styles for facility section*/
+
+.facilities{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 320px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 128px;
+
+}
+.facility1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 175px;
+}
+.facility2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.facility3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 175px;
+}
+.fc-cap1,.fc-cap2,.fc-cap3{
+    padding-top: 24px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
 }
