@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -6,7 +10,7 @@ body{
 .top-container{
     display: flex;
     background: rgba(229, 84, 115, 0.10);
-    /* justify-content: center; */
+    justify-content: center;
 }
 .top-text-header{
     margin-bottom: 32px;
@@ -25,11 +29,13 @@ body{
 }
 h1{
     color: #272727;
+    font-family: Lato;
     font-size: 80px;    
-    font-weight: 700;
+    font-weight: 900;
 }
 .top-text-desc{
     color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
@@ -43,4 +49,202 @@ h1{
     font-size: 20px;
     font-weight: 700;
     border: none
+}
+
+/*styles for main section*/
+
+.hot-deal-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 620px;     
+}
+.hot-deal-header{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 900;
+}
+.hot-deal-text{
+    padding-top: 230px;
+    padding-left: 423px;
+}
+.hot-deal-image{
+    padding-top: 100px;
+    padding-right: 430px;
+    padding-bottom: 40px;
+    width: 318px;
+    height: 420px;
+    
+}
+.hot-deal-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+#color{
+    color:#E55473;
+}
+
+.instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 128px;
+}
+.instagram-header{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    width: 594px;
+}
+#flower1{
+    padding-right: 24px;
+}
+#flower2{
+    padding-right: 24px;
+}
+#flower3{
+    padding-right: 24px;
+}
+
+.latest-deal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 449px;
+    margin: 128px 240px;
+}
+.latest-deal-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.latest-deal-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.email{
+    border-radius: 8px;
+    background: #FFF;
+    width: 600px;
+    height: 64px;
+    border-style: none;
+    margin-top: 48px;
+    padding-left: 16px;
+}
+::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bottom-box{
+    background-color:#111010;
+    height: 449px;
+}
+.bottom-title{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+}
+#white{
+    color: #FFFFFF
+}
+.bottom-desc{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+
+/*styles for featured section*/
+
+.featured-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 178px;
+}
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+.featured-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+.featured-images{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+#featured-flower-1{
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+#featured-flower-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
+}
+#featured-flower-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+.featured-images > .featured-flower2{
+   
+
 }
